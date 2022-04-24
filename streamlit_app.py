@@ -73,7 +73,7 @@ streamlit.dataframe (my_data_row)
 
 my_cur.execute("select * from fruit_load_list") 
 my_data_rows = my_cur.fetchall()
-streamlit.header("View our Fruit List - Add your favorite!:")
+streamlit.header("View our Fruit List - Add your favorite!")
 streamlit.dataframe (my_data_rows)
 
 def insert_row_snowflake(new_fruit): 
